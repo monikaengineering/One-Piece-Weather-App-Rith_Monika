@@ -1,12 +1,10 @@
-import SearchCity from './components/SearchCity';
-import './App.css';
+import React from 'react';
+import FindWeather from './components/FindWeather';
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <SearchCity />
+    <div>
+      <FindWeather />
     </div>
-  );
+  )
 }
-
-export default App;
