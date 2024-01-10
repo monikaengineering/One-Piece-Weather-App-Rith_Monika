@@ -1,15 +1,10 @@
-import logo from './logo.svg';
+import SearchCity from './components/SearchCity';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <a>
-          Welcome to Earth Weather App
-        </a>
-      </header>
+      <SearchCity />
     </div>
   );
 }
